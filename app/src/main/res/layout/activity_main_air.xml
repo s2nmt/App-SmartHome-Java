@@ -1,0 +1,157 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".main_air">
+tools:ignore="UseSwitchCompatOrMaterialXml">
+    <ProgressBar
+    android:id="@+id/nd2"
+    style="?android:attr/progressBarStyle"
+    android:layout_width="287dp"
+    android:layout_height="288dp"
+    android:indeterminateOnly="false"
+    android:progressDrawable="@drawable/progree"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.516"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.478"
+    tools:progress="60" />
+
+    <CheckBox
+    android:id="@+id/fan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:button="@drawable/customcheckbox"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.119"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.971" />
+
+<CheckBox
+    android:id="@+id/diy"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:button="@drawable/customcheckbox2"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.504"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.972" />
+
+<CheckBox
+    android:id="@+id/cold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:button="@drawable/customcheckbox3"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.903"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.972" />
+
+    <ImageView
+    android:id="@+id/imageView9"
+    android:layout_width="81dp"
+    android:layout_height="60dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.996"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.011"
+    app:srcCompat="@drawable/img_24" />
+
+<TextView
+    android:id="@+id/textView17"
+    android:layout_width="304dp"
+    android:layout_height="120dp"
+    android:background="@drawable/air"
+    android:text="\n  \t   Air \n    \tConditioner"
+    android:textColor="#000"
+    android:textSize="25sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.598"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.111" />
+
+    <TextView
+        android:id="@+id/nhietdo1"
+        android:layout_width="34dp"
+        android:layout_height="41dp"
+        android:text="21"
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="45dp"
+        android:layout_height="41dp"
+        android:text="ºC"
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="111dp"
+        android:layout_height="46dp"
+        android:text="MAX 50ºC"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/diy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574" />
+
+    <TextView
+        android:id="@+id/ht"
+        android:layout_width="47dp"
+        android:layout_height="46dp"
+        android:text="50"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="45dp"
+        android:layout_height="46dp"
+        android:text="%"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
